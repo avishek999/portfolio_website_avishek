@@ -14,7 +14,40 @@
 </head>
 
 <body>
-  <h1 class="text-center">HI, Avishek here</h1>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" id="navId" role="tablist">
+    <li class="nav-item">
+        <a href="#tab1Id" class="nav-link active" data-bs-toggle="tab" aria-current="page">Avishek</a>
+    </li>
+    
+    <li class="nav-item" role="presentation">
+        <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">Contact</a>
+    </li>
+    <li class="nav-item" role="presentation">
+        <a href="#" class="nav-link disabled" data-bs-toggle="tab">projects</a>
+    </li>
+  </ul>
+  
+  <!-- Tab panes -->
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+    <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+    <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+    <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+    <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+  </div>
+
+  <div class="w-2100 h-1100">
+  <h4 style=" position: absolute; top: 300px; left: 200px">HI,It's <span style="font-size: 100px;"> Avishek</span></h4>
+    <p style=" position: absolute; top: 422px; left: 250px"> Not a wizard, just a programmer. I make computers do magical things </p>
+  </div>
+  
+  <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
+  <script>
+    var triggerEl = document.querySelector('#navId a')
+    bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
+  </script>
+  
 </body>
 
 </html>
