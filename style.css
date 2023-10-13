@@ -1,0 +1,26 @@
+h4{
+    position: absolute; 
+    top: 300px;
+    left: 200px;
+    color: #445D48;
+}
+
+p{
+  position: absolute; 
+  top: 422px;
+ left: 250px;
+ color: #445D48;
+}
+
+span{
+    font-size: 100px;
+    color: #113946;
+}
+
+body{
+    background-color:  #FFF2D8;
+}
+
+.main{
+    background-color: aqua;
+}
